@@ -12,8 +12,8 @@
     "examples": "npm run dev --workspace=quarks.examples",
     "playground": "npm run dev --workspace=quarks.playground",
     "prettier": "npm run prettier --workspaces",
-    "publish": "npm publish --workspace=quarks.core --workspace=three.quarks",
-    "yalc:publish": "npm run yalc:publish --workspace=quarks.core --workspace=three.quarks",
+    "publish": "npm publish --workspace=quarks.core --workspace=three.quarks --workspace=quarks.r3f",
+    "yalc:publish": "npm run yalc:publish --workspace=quarks.core --workspace=three.quarks --workspace=quarks.r3f",
     "docs": "cross-env NODE_OPTIONS='--experimental-require-module' typedoc",
     "docs-dev": "http-server ./docs -c-1 -p 8002"
   },
